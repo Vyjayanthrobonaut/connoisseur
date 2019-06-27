@@ -1,0 +1,107 @@
+Interger:: Examples::
+
+public class Main {
+
+    public static void main(String[] args) {
+        // int has a width of 32
+        int myMinValue = -2_147_483_648;
+        int myMaxValue = 2_147_483_647;
+
+        // byte has a width of 8
+        byte myByteValue = -128;
+
+        // short has a width of 16
+        short myShortValue = 32767;
+
+        // Long has a width of 64
+        Long myLongValue = 9_223_372_036_854_775_807L;
+    }
+}
+
+
+---------------------------
+public class Main {
+
+    public static void main(String[] args) {
+        // int has a width of 32
+        int myMinValue = -2_147_483_648;
+        int myMaxValue = 2_147_483_647;
+        int myTotal = (myMinValue/2);
+
+        System.out.println("myTotal = " + myTotal);
+        // byte has a width of 8
+        byte myByteValue = -128;
+        byte myNewByteValue = (byte) (myByteValue/2);
+
+        // short has a width of 16
+        short myShortValue = 32767;
+
+        // Long has a width of 64
+        Long myLongValue = 9_223_372_036_854_775_807L;
+    }
+}
+
+===========Primitive Datatypes========
+bytes
+short
+int
+long
+float
+double
+char
+boolean
+============================
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        byte myByteValue = 10;
+        short myShortValue = 20;
+        int myIntValue = 50;
+        long myLongTotal = 50000 + 10 * (myByteValue + myShortValue + myIntValue);
+        short myShortTotal = (short) (1000 + 10 * (myByteValue + myShortValue + myIntValue));
+
+        System.out.println("Long Total = " + myLongTotal);
+        System.out.println("Short Total = " + myShortTotal);
+    }
+}
+
+
+======Decimal Numbers============
+
+public class Main {
+
+    public static void main(String[] args) {
+     int myIntValue = 5/3;
+     float myFloatValue = 5f/2f;
+     double myDoubleValue = 5d/3d;
+
+     System.out.println("My Int Value  = " + myIntValue);
+        System.out.println("My Float Value = " + myFloatValue);
+        System.out.println("My Double Value = " + myDoubleValue);
+    }
+}
+=====================================
+// Convert a given number of pounds to kilograms
+//1. Create a variable to store the number of pounds
+//2. Calculate the number of kilograms for the number above and store in variable.
+//3. Print out the result.
+// Note: 1 pound is equal to 0.45359237 kilograms.
+public class Main {
+
+    public static void main(String[] args) {
+
+        double pound = 200 ;
+        double kilogram = ( pound * 0.45359237);
+        System.out.println(" Pound = " + pound);
+        System.out.println(" Kilograms = " + kilogram);
+        // kilograms = 90.718474
+
+        
+        }
+}
+
+===============================
+String
