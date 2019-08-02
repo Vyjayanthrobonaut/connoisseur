@@ -1,0 +1,201 @@
+    1  exit
+    2  yum update
+    3  ls
+    4  cd ~
+    5  ls
+    6  ls -a
+    7  yum install epel-repo
+    8  yum install epel-release
+    9  yum install docker
+   10  ls
+   11  cd /opt
+   12  ls
+   13  ls aws
+   14  curl -fsSL get.docker.com -o get-docker.sh
+   15  ls
+   16  ls -lrt
+   17  chmod 744 get-docker.sh 
+   18  sh get-docker.sh 
+   19  yum install -y -q docker-ce
+   20  docker --version
+   21  docker info
+   22  docker search hello-world
+   23  docker start
+   24  docker start --help
+   25  docker --version
+   26  docker info
+   27  service docker status
+   28  service docker start
+   29  systemctl enable docker
+   30  docker info
+   31  docker images
+   32  docker images
+   33  docker search hello-world
+   34  docker pull tutm/hello-world
+   35  docker pull tutum/hello-world
+   36  docker images
+   37  clear
+   38  docker imahes
+   39  clear
+   40  docker images
+   41  docker run -itd -o 80:80 tutum/hello-world
+   42  docker run -itd -p 80:80 tutum/hello-world
+   43  iptables -F
+   44  iptables --info
+   45  iptables --help
+   46  iptables --list
+   47  iptables -I
+   48  docker run -itd -p 82:80 tutum/hello-world
+   49  clear
+   50  docker ps
+   51  docker --help
+   52  docker network
+   53  docker network ls
+   54  docker top hello-world
+   55  docker top tutum\hello-world
+   56  docker top tutum/hello-world
+   57  docker ps
+   58  docker top f43e5c3a750f
+   59  docker stop 5fc2dd7ba128
+   60  docker ps
+   61  clear
+   62  docker status
+   63  docker images
+   64  exit
+   65  clear
+   66  ls -lrt
+   67  ls -lrt /opt
+   68  cd /opt
+   69  ls
+   70  ls -lrt
+   71  cd aws
+   72  ls
+   73  ls -lrt
+   74  docker search centos
+   75  docker search hello-world
+   76  docker images
+   77  docker --version
+   78  docker info
+   79  service docker status
+   80  systemctl status docker
+   81  clear
+   82  docker info
+   83  clear
+   84  docker images
+   85  clear
+   86  docker search hello-world
+   87  docker pull /kitematic/hello-world-nginx
+   88  docker pull kitematic/hello-world-nginx
+   89  docker images
+   90  ls -lrt
+   91  cd ..
+   92  ls -lrt
+   93  docker images
+   94  docker run -itd -p 80:80 kitematic/hello-world-nginx
+   95  docker run --help
+   96  clear
+   97  iptables
+   98  iptables --help
+   99  ls -lrt
+  100  docker images
+  101  docker ps
+  102  iptables --help
+  103  iptables -L
+  104  clear
+  105  docker ps
+  106  docker stop infallible_mirzakhani
+  107  docker ps
+  108  docker pull centos
+  109  docker images
+  110  docker run -it centos
+  111  docker run -it centos
+  112  docker ps
+  113  docker stop -it centos
+  114  docker stop centos
+  115  docker stop -t centos
+  116  docker ps -a
+  117  docker run -it festive_nobel
+  118  docker stop 408870389c60
+  119  docker ps -a
+  120  docker ps --help
+  121  docker ps -n
+  122  docker ps -n tutum/hello-world
+  123  docker ps -l
+  124  docker ps -qs
+  125  docker ps -q
+  126  docker ps -s
+  127  docker ps -a
+  128  docker images
+  129  docker run -it centos
+  130  docker ps
+  131  docker ps 
+  132  docker attach nifty_curran
+  133  docker ps
+  134  docker ps -a
+  135  clear
+  136  docker ps -a
+  137  clear
+  138  docker ps -a
+  139  docker start awesome_goldberg
+  140  docker imahes
+  141  docker images
+  142  docker ps
+  143  docker stop awesome_goldberg
+  144  docker ps
+  145  docker ps -a
+  146  docker ps -a
+  147  docker ps
+  148  docker ps -a
+  149  docker ps
+  150  docker start loving_hypatia
+  151  docker ps
+  152  docker stop loving_hypatia
+  153  docker start infallible_mirzakhan
+  154  docker start  kitematic/hello-world-nginx
+  155  docker start kitematic/hello-world-nginx
+  156  docker start 1369af3b27fb
+  157  docker ps
+  158  docker stop infallible_mirzakhani
+  159  docker ps
+  160  docker start festive_nobel
+  161  docker ps
+  162  docker attach festive_nobel
+  163  docker ps
+  164  docker attach loving_wiles
+  165  docker start loving_wiles
+  166  docker attach loving_wiles
+  167  docker ps
+  168  docker ps
+  169  docker attach loving_wiles
+  170  docker ps
+  171  docker ps -a
+  172  docker start nifty_curran
+  173  docker start nifty_curran
+  174  docker attach nifty_curran
+  175  docker ps
+  176  clear
+  177  docker ps -a
+  178  docker ps
+  179  docker start infallible_mirzakhani
+  180  docker ps
+  181  docker stop infallible_mirzakhani
+  182  docker ps
+  183  docker ps -a
+  184  docker start nifty_curran
+  185  docker attach nifty_curran
+  186  docker attach nifty_curran
+  187  docker ps
+  188  docker ps -a
+  189  docker start nifty_curran
+  190  docker ps
+  191  docker attach nifty_curran
+  192  docker attach nifty_curran
+  193  ls
+  194  cd /opt
+  195  ls
+  196  docker ps
+  197  docker attach nifty_curran
+  198  ls
+  199  touch cmd.txt
+  200  ls
+  201  history >> cmd.txt 
